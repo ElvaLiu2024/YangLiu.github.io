@@ -1,13 +1,13 @@
 This repo for Neu-CS5610-Spring2025
 
-git clone https://github.com/{username}/{username}.github.io
+1. git clone https://github.com/{username}/{username}.github.io
 
-cd {username}.github.io
+2. cd {username}.github.io
 
-echo "Hello World" > index.html
+3. echo "Hello World" > index.html
 
-git add *
+4. git add *
 
-git commit -m "Initial commit"
+5. git commit -m "Initial commit"
 
-git push -u origin main
+6. git push -u origin main
