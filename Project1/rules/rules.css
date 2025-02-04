@@ -1,0 +1,69 @@
+/* Rules section */
+ .rules-content {
+    margin-top: 100px;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.rules-content h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #001f3f; 
+}
+.rules-list{
+    text-align: left;
+    margin: 0 auto 2rem;
+    padding: 0 2rem;
+    max-width: 800px;
+    line-height: 1.8;
+    font-size: 1.2rem;
+}
+.rules-list li {
+    margin-bottom: 2rem;
+}
+.connection {
+   
+    margin: 2rem auto;
+    padding:  1rem;
+    background-color:  #001f3f;
+    color: #fff;
+    max-width: 800px;
+}
+.connection p {
+    text-align: left;
+    line-height: 1.4;
+    font-size: 0.9rem;
+    margin: 0.5rem;
+}
+.connection a {
+    color: #1dd1a1;
+    text-decoration: none;
+    font-weight: bold;
+}
+.connection a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+   
+    .rules-content {
+        margin-top: 80px;
+    }
+    .rules-content h1 {
+        font-size: 1.5rem;
+        margin-top: 50px;
+
+    }
+
+    .rules-list {
+        font-size: 1rem;
+    }
+
+    .connection {
+        padding: 0.8rem;
+    }
+    .connection p {
+        font-size: 0.8rem;
+    }
+
+}
