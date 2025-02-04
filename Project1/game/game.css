@@ -1,6 +1,6 @@
 /* Game section */
 .game-content {
-    margin-top: 100px;
+    margin-top: calc(5vh + 30px);
     padding: 2rem 1rem;
     text-align: center;
     padding-bottom: 5rem;
@@ -94,8 +94,8 @@
 }
 
 .restart-button {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: calc(2rem + 2vh);
+    margin-bottom: calc(2rem + 2vh);
     padding: 1rem 2rem;
     background-color: #1dd1a1;
     color: #ffffff;
